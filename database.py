@@ -64,3 +64,4 @@ def create_tables():
 
     conn.commit()
     conn.close()
+
