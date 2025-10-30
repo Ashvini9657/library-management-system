@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 from database import get_connection, create_tables
 
-# ✅ Initialize database and tables
+# Initialize database and tables
 st.set_page_config(page_title="Library Management System", page_icon="📚", layout="wide")
 st.title("📚 Library Management System")
 
@@ -159,3 +159,4 @@ elif choice == "Return Book":
     else:
         st.info("ℹ️ No books currently issued.")
     conn.close()
+
